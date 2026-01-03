@@ -46,7 +46,7 @@ getgenv().Settings = {
             SHADOW_CRYSTAL = 100,
         },
 
-        EQUIP_SECRET_ON_HATCH_OR_IF_YOU_JUST_DONT_HAVE_A_FULL_TEAM_OF_SECRETS_OR_SOMETHING = false,
+        EQUIP_SECRET_ON_HATCH_OR_IF_YOU_JUST_DONT_HAVE_A_FULL_TEAM_OF_SECRETS_OR_SOMETHING = true,
     },
     Shrine = {
         AUTO_DONATE_BUBBLE_SHRINE = true,
