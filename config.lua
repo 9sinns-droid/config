@@ -70,7 +70,7 @@ getgenv().Settings = {
         COIN_SPEND_SECONDS = 10,
     },
     MiscConfig = {
-	    PERFORMANCE_STUFFS      = false,
+	    PERFORMANCE_STUFFS      = true,
         FOCUS_ADMIN_EGG         = false,
 
         EGG_TO_HATCH            = "Northpole Egg",
@@ -86,7 +86,7 @@ getgenv().Settings = {
         MINIMUM_ODDS               = 1,
         PRIVATE_HATCH_WEBHOOK_URL  = "https://discord.com/api/webhooks/1436563904053641382/dpHRvDNw7zrSpYUigBitjvLvY9LdPgViLV_d8mjkT6FA_N7axfSZ3JAXCvhc37DgF1HG",
         STATUS_WEBHOOK_URL         = "https://discord.com/api/webhooks/1436563904053641382/dpHRvDNw7zrSpYUigBitjvLvY9LdPgViLV_d8mjkT6FA_N7axfSZ3JAXCvhc37DgF1HG",
-        DISCORD_USER_ID            = "",
+        DISCORD_USER_ID            = "871622416344956989",
 
         HATCH_WEBHOOK_DETAILS = {
             "Rarity",
