@@ -52,7 +52,7 @@ getgenv().Settings = {
 
         AUTO_GIVE_GIFTS = true,
         ACTION_TO_DO_WHILE_GIVING_GIFTS = "Egg",
-        GIVE_GIFTS_SNOWFLAKE_AMTS = { Minimum = 5000000000, Maximum = 5000000000 },
+        GIVE_GIFTS_SNOWFLAKE_AMTS = { Minimum = 5000000000, Maximum = 50000000000 },
     },
     Quests = {
         ENABLE_QUESTS = false,
