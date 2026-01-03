@@ -18,6 +18,36 @@ getgenv().Settings = {
             Minutes = 0,
         },
     },
+	
+    Enchanting = {
+        Enabled = true,
+
+        Enchants = {
+            Starter = {
+                PRIMARY_ENCHANTS = { },
+                SECONDARY_ENCHANTS = { },
+            },
+            Post = {
+                PRIMARY_ENCHANTS = { "Secret Hunter" },
+                SECONDARY_ENCHANTS = { "Ultra Roller" },
+            },
+        },
+
+        PRIMARY_ENCHANTS = { "Secret Hunter" },
+        SECONDARY_ENCHANTS = { "Ultra Roller" },
+        FIRST_SLOT_ITEM_TO_USE = "Shadow Crystal",
+        SECOND_SLOT_ITEM_TO_USE = "Gems",
+        AUTO_SWITCH_TO_ORBS = true,
+        PRIORITIZE_PRIMARY = true,
+
+        CURRENCY_MINIMUMS = {
+            GEM = 5000000,
+            REROLL_ORB = 0,
+            SHADOW_CRYSTAL = 100,
+        },
+
+        EQUIP_SECRET_ON_HATCH_OR_IF_YOU_JUST_DONT_HAVE_A_FULL_TEAM_OF_SECRETS_OR_SOMETHING = false,
+    },
     Shrine = {
         AUTO_DONATE_BUBBLE_SHRINE = true,
         BSHRINE_POTION_TIER_LIMIT        = 1,
