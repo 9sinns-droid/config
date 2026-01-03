@@ -50,9 +50,9 @@ getgenv().Settings = {
     Events = {
         AUTO_GIFTS = true,
 
-        AUTO_GIVE_GIFTS = false,
+        AUTO_GIVE_GIFTS = true,
         ACTION_TO_DO_WHILE_GIVING_GIFTS = "Egg",
-        GIVE_GIFTS_SNOWFLAKE_AMTS = { Minimum = 5000000000, Maximum = 50000000000 },
+        GIVE_GIFTS_SNOWFLAKE_AMTS = { Minimum = 5000000000, Maximum = 5000000000 },
     },
     Quests = {
         ENABLE_QUESTS = false,
@@ -62,7 +62,7 @@ getgenv().Settings = {
             -- "Season Pass",
         },
 
-        DEFAULT_HATCH_EGG = "Northpole Egg", 
+        DEFAULT_HATCH_EGG = "", 
         RARITY_FALLBACK_EGG = "Spikey Egg",
 
         COIN_CAP = 5000000000000, 
