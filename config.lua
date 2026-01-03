@@ -70,7 +70,7 @@ getgenv().Settings = {
         COIN_SPEND_SECONDS = 10,
     },
     MiscConfig = {
-	    PERFORMANCE_STUFFS      = true,
+	    PERFORMANCE_STUFFS      = false,
         FOCUS_ADMIN_EGG         = false,
 
         EGG_TO_HATCH            = "Northpole Egg",
