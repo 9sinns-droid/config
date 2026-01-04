@@ -117,7 +117,7 @@ getgenv().Settings = {
         FOCUS_ADMIN_EGG         = false,
 		AUTO_USE_MYSTERY_BOX    = true,
 		AUTO_SPIN_WHEEL         = true,
-		WHEELS_TO_SPIN          = { "Christmas", "Basic" },
+		WHEELS_TO_SPIN          = { "Christmas" },
 		ENABLE_PLAYTIME_REWARDS = true,
 
         EGG_TO_HATCH            = "Northpole Egg",
