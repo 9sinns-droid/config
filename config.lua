@@ -99,9 +99,26 @@ getgenv().Settings = {
         COIN_SPEND_EGG = "Rainbow Egg",
         COIN_SPEND_SECONDS = 10,
     },
+	Deletion = {
+        ENABLE_AUTO_DELETE        = true,
+        ENABLE_AUTO_RARITY_DELETE = false,
+
+        PETS_TO_DELETE = {"Doggy", "Kitty"},
+
+        RARITIES_TO_KEEP = {
+            "Secret",
+            "Legendary",
+            "Infinity",
+        },
+    },
+
     MiscConfig = {
 	    PERFORMANCE_STUFFS      = true,
         FOCUS_ADMIN_EGG         = false,
+		AUTO_USE_MYSTERY_BOX    = true,
+		AUTO_SPIN_WHEEL         = true,
+		WHEELS_TO_SPIN          = { "Christmas", "Basic" },
+		ENABLE_PLAYTIME_REWARDS = true,
 
         EGG_TO_HATCH            = "Northpole Egg",
 
