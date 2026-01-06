@@ -48,6 +48,7 @@ getgenv().Settings = {
 
         EQUIP_SECRET_ON_HATCH_OR_IF_YOU_JUST_DONT_HAVE_A_FULL_TEAM_OF_SECRETS_OR_SOMETHING = true,
     },
+	
     Shrine = {
         AUTO_DONATE_BUBBLE_SHRINE = true,
         BSHRINE_POTION_TIER_LIMIT        = 1,
@@ -70,6 +71,36 @@ getgenv().Settings = {
     DreamerShrine = {
         AUTO_DONATE_DREAMER_SHRINE = true,
         SHARD_AMOUNT_TO_DONATE = 1,
+	Board = {
+        AUTO_BOARD = true,
+
+        PAUSE_MINIGAMES_WHEN_BOARD = false,
+        PAUSE_MINIGAMES_WHEN_REFILLING_ELIXIR = false,
+        DO_MINIGAME_TO_DO_ON_BOARD = true,
+
+        INFINITY_ELIXIR_AMOUNTS = {
+            Minimum = { Days = 2, Hours = 0, Minutes = 0 },
+            Maximum = { Days = 2, Hours = 0, Minutes = 2 },
+        },
+
+        DICE_TYPE = "Dice",
+        GOLDEN_DICE_DISTANCE = 4,
+
+        STOP_BOARD_ON_NO_GDICE       = true,
+        STOP_BOARD_ON_NO_NORMAL_DICE = true,
+
+        TILES_TO_TARGET = {
+            ["infinity"] = true,
+        },
+
+        OPEN_DICE_CHEST_WHILE_BOARD      = true,
+        SUMMON_DICE_RIFT_WHEN_NO_GDICE   = false,
+        SUMMON_REGARDLESS_OF_GDICE       = false,
+        AUTO_RESPAWN_RIFTS               = false,
+
+        TARGET_GDICE_AMOUNT              = 0,
+        STOP_DICE_RIFT_WHEN_GDICE_AMOUNT = true,
+    },
     },
     Rifts = {
         ENABLE_RIFT_FOCUS = true,
